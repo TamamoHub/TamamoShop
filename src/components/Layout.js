@@ -55,11 +55,11 @@ export default function Layout({ children }) {
               </span>
             </a>
             <p className="text-lg font-medium text-gray-700 dark:text-gray-300 text-center md:ml-4"> {/* Текст для мобільних */}
-              Примітки до випуску (Іформація для коледжу)
+              GitHub репозиторій
             </p>
           </div>
           <div className="flex flex-col items-center md:flex-row md:justify-end space-y-3 md:space-y-0"> {/* Організуємо кнопки в колонку для мобільних */}
-            <Link href="/release-notes">
+            <Link href="https://github.com/TamamoHub/TamamoShop">
               <button className="w-full px-5 py-2.5 text-lg font-bold text-white transition-all duration-300 bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg shadow-lg hover:bg-gradient-to-r hover:from-purple-700 hover:to-pink-700 focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-600">
                 Детальніше
               </button>
